@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AG_time	erkin_simulator.c	/^double AG_time = 0;$/;"	v
+RSA_decrypt	erkin_simulator.c	/^int RSA_decrypt(char * enc_message){$/;"	f
+RSA_encrypt	erkin_simulator.c	/^char* RSA_encrypt(int message){$/;"	f
+SM_lines	read_text.py	/^SM_lines = []$/;"	v
+SM_results	read_text.py	/^SM_results = []$/;"	v
+SM_time	erkin_simulator.c	/^double SM_time = 0;$/;"	v
+append	read_text.py	/^	append = True$/;"	v
+enc_measurements	erkin_simulator.c	/^paillier_ciphertext_t **enc_measurements;$/;"	v
+file_name	read_text.py	/^	file_name = str(j) + ".txt"$/;"	v
+gcd	erkin_simulator.c	/^long int gcd(mpz_t op1, mpz_t op2){$/;"	f
+generated_numbers	erkin_simulator.c	/^char ***generated_numbers;$/;"	v
+id	erkin_simulator.c	/^	int id;$/;"	m	struct:meter_info	file:
+individual_measurements	erkin_simulator.c	/^int *individual_measurements;$/;"	v
+init_variables	erkin_simulator.c	/^void init_variables(){$/;"	f
+key_pair	erkin_simulator.c	/^RSA *key_pair;$/;"	v
+main	erkin_simulator.c	/^int main(int argc, char *argv[]){$/;"	f
+meter_calculate_ri	erkin_simulator.c	/^void meter_calculate_ri(struct meter_info *info){$/;"	f
+meter_compute_hash	erkin_simulator.c	/^void meter_compute_hash(){$/;"	f
+meter_encript	erkin_simulator.c	/^void meter_encript(struct meter_info *info, mpz_t ri){$/;"	f
+meter_generate_random_numbers	erkin_simulator.c	/^void meter_generate_random_numbers(struct meter_info *info){$/;"	f
+meter_info	erkin_simulator.c	/^struct meter_info{$/;"	s	file:
+number_of_meters	erkin_simulator.c	/^int number_of_meters;$/;"	v
+numbers	read_text.py	/^numbers = [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200$/;"	v
+print_results	erkin_simulator.c	/^void print_results(){$/;"	f
+public_key	erkin_simulator.c	/^paillier_pubkey_t *public_key;$/;"	v
+received_numbers	erkin_simulator.c	/^char ***received_numbers;$/;"	v
+result	read_text.py	/^	result = ""$/;"	v
+results	read_text.py	/^	results = open(file_name, "r");$/;"	v
+secret_key	erkin_simulator.c	/^paillier_prvkey_t *secret_key;$/;"	v
+set_of_ri	erkin_simulator.c	/^mpz_t *set_of_ri;$/;"	v
+step_5	erkin_simulator.c	/^void step_5(){$/;"	f
+step_6	erkin_simulator.c	/^void step_6(){$/;"	f
+steps_1_and_2	erkin_simulator.c	/^void steps_1_and_2(){$/;"	f
+steps_3_and_4	erkin_simulator.c	/^void steps_3_and_4(){$/;"	f
+temp	read_text.py	/^	temp = ""$/;"	v
+temp	read_text.py	/^temp = ""$/;"	v
+the_hash	erkin_simulator.c	/^mpz_t the_hash;$/;"	v
+time_stamp	erkin_simulator.c	/^time_t time_stamp;$/;"	v
+total_final	erkin_simulator.c	/^mpz_t total_final;$/;"	v
