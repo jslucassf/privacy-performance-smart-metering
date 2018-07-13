@@ -300,7 +300,8 @@ void print_results(){
 //	gmp_printf("Total regional consumption is M = %d (real is %Zd)\n", real_total, total_final);
 //	printf("Meter's time: %f\nAG's time: %f\n", SM_time / number_of_meters, AG_time);
 
-	printf("%f %f\n", SM_time / number_of_meters, AG_time);
+	//printf("%f %f\n", SM_time / number_of_meters, AG_time);
+	printf("%f", SM_time + AG_time);
 
 }
 

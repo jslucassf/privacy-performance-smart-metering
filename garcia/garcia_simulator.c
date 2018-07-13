@@ -162,7 +162,8 @@ void step_7() {
   }
 
   //printf("Total consumption regional consumption is M = %d (real is %d)\n", M, M_real);
-  printf("%f %f\n", SM_time / N, AG_time);
+  //printf("%f %f\n", SM_time / N, AG_time);
+  printf("%f", SM_time + AG_time);
 }
 
 int main(int argc, char *argv[]) {
